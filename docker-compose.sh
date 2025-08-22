@@ -1,3 +1,5 @@
+# Step-1: Copy above line into a .sh file (dockercompose.sh)
+
 #!/bin/bash
 
 # Update system packages
@@ -14,3 +16,8 @@ sudo chmod +x /usr/local/bin/docker-compose
 
 # Verify installation
 docker-compose --version
+
+# Step-2: Run following commands.
+
+# chmod +x dockercompose.sh
+# ./dockercompose.sh
